@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910e1d1c-08d7-438c-9d18-f9c2749e3b7c" name="Changes" comment="chore: remove unused variables">
-      <change afterPath="$PROJECT_DIR$/bunfig.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+    <list default="true" id="910e1d1c-08d7-438c-9d18-f9c2749e3b7c" name="Changes" comment="feat: setup tailwind&#10;&#10;Closes #3">
+      <change afterPath="$PROJECT_DIR$/build.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +66,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "bun",
+    "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
     "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "/home/namal/code/cantus-vani/node_modules/typescript/lib",
@@ -77,14 +75,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="dev" type="BunRunConfiguration">
       <option name="program" value="$FileDir$" />
       <option name="runtimeParameters" value="run dev --open" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -100,10 +109,12 @@
     </configuration>
     <list>
       <item itemvalue="Bun.dev" />
+      <item itemvalue="npm.build" />
       <item itemvalue="npm.dev" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -124,7 +135,7 @@
       <updated>1784051661042</updated>
       <workItem from="1784051662379" duration="1146000" />
       <workItem from="1784474452252" duration="426000" />
-      <workItem from="1784475465806" duration="6026000" />
+      <workItem from="1784475465806" duration="7211000" />
     </task>
     <task id="LOCAL-00001" summary="chore: .idea files">
       <option name="closed" value="true" />
@@ -166,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784476593057</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: setup tailwind&#10;&#10;Closes #3">
+      <option name="closed" value="true" />
+      <created>1784502750275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784502750275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +208,7 @@
     <MESSAGE value="chore: clean up svelte-kit files" />
     <MESSAGE value="devops: setup deploy to Neocities workflow&#10;&#10;Closes #1" />
     <MESSAGE value="chore: remove unused variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: remove unused variables" />
+    <MESSAGE value="feat: setup tailwind&#10;&#10;Closes #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: setup tailwind&#10;&#10;Closes #3" />
   </component>
 </project>
