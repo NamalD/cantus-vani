@@ -2,7 +2,7 @@
 
 # create-issue.fish
 # Creates a GitHub issue on NamalD/cantus-vani and adds it to
-# project 6 ("@NamalD's untitled project") in the "Todo" column.
+# project 6 ("Cantus Vani project") in the "Todo" column.
 #
 # Usage:
 #   create-issue "Fix navigation bug"
@@ -10,9 +10,6 @@
 
 set REPO "NamalD/cantus-vani"
 set PROJECT_NUMBER 6
-set PROJECT_ID "PVT_kwHOACqRis4BdZWv"
-set STATUS_FIELD_ID "PVTSSF_lAHOACqRis4BdZWvzhX7MGg"
-set TODO_OPTION_ID "f75ad846"
 
 if test (count $argv) -lt 1
     echo "Usage: create-issue <title> [body]"
