@@ -10,6 +10,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "dev": "bun src/index.html"
+    "dev": "bun src/index.html",
+    "build": "bun build src/index.html --outdir build/ --minify"
   }
 }

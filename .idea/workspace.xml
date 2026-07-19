@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910e1d1c-08d7-438c-9d18-f9c2749e3b7c" name="Changes" comment="" />
+    <list default="true" id="910e1d1c-08d7-438c-9d18-f9c2749e3b7c" name="Changes" comment="chore: .idea files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/0.DhxE0yaw.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/Bjy-W4x2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/Cn04--rz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/b0J2fl5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/xihTtKlq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/app.D0-nA2Se.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/start.CoRxA_8y.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/0.CSW5D5JU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/1.C5asHiNf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/2.Bqj-Nrth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/_app/version.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +31,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NamalD"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NamalD/cantus-vani.git",
+    "accountId": "9bec9944-4e05-44c8-98ab-59302d92fc56"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
@@ -94,7 +123,17 @@
       <updated>1784051661042</updated>
       <workItem from="1784051662379" duration="1146000" />
       <workItem from="1784474452252" duration="426000" />
+      <workItem from="1784475465806" duration="400000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: .idea files">
+      <option name="closed" value="true" />
+      <created>1784475488651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784475488651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: .idea files" />
   </component>
 </project>
