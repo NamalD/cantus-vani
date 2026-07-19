@@ -1,0 +1,1 @@
+import{f as e,m as t}from"../chunks/Cn04--rz.js";import"../chunks/xihTtKlq.js";var n=t(`<h1>Welcome to Cantus Vani: Voices from the Void</h1>`);function r(t){e(t,n())}export{r as component};
