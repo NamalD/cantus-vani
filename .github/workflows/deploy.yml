@@ -1,0 +1,31 @@
+name: Deploy to Neocities
+
+on:
+  push:
+    branches:
+      - main
+
+# prevent concurrent deploys doing strange things
+concurrency:
+  group: deploy-to-neocities
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - name: Install packages
+        run: bun install
+      - name: Build application
+        run: bun run build
+      - name: Deploy to Neocities
+        uses: bcomnes/deploy-to-neocities@v3
+        with:
+          api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
+          cleanup: true
+          neocities_supporter: false
+          preview_before_deploy: true
+          dist_dir: build

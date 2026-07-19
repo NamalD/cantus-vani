@@ -4,28 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910e1d1c-08d7-438c-9d18-f9c2749e3b7c" name="Changes" comment="chore: .idea files">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="910e1d1c-08d7-438c-9d18-f9c2749e3b7c" name="Changes" comment="chore: clean up svelte-kit files">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/assets/0.DhxE0yaw.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/Bjy-W4x2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/Cn04--rz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/b0J2fl5a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/chunks/xihTtKlq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/app.D0-nA2Se.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/entry/start.CoRxA_8y.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/0.CSW5D5JU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/1.C5asHiNf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/immutable/nodes/2.Bqj-Nrth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/_app/version.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +40,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3GVLC3HSBiT1oEDfABq8QTOyXt3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -123,7 +118,7 @@
       <updated>1784051661042</updated>
       <workItem from="1784051662379" duration="1146000" />
       <workItem from="1784474452252" duration="426000" />
-      <workItem from="1784475465806" duration="400000" />
+      <workItem from="1784475465806" duration="897000" />
     </task>
     <task id="LOCAL-00001" summary="chore: .idea files">
       <option name="closed" value="true" />
@@ -133,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784475488651</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: build script">
+      <option name="closed" value="true" />
+      <created>1784475951333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784475951333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore: clean up svelte-kit files">
+      <option name="closed" value="true" />
+      <created>1784475987017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1784475987017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +163,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: .idea files" />
+    <MESSAGE value="feat: build script" />
+    <MESSAGE value="chore: clean up svelte-kit files" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: clean up svelte-kit files" />
   </component>
 </project>
