@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "tailwindcss-palette-generator": "^2.4.0"
   },
   "peerDependencies": {
     "typescript": "^5"
@@ -12,5 +13,9 @@
   "scripts": {
     "dev": "bun src/index.html",
     "build": "bun build src/index.html --outdir build/ --minify"
+  },
+  "dependencies": {
+    "bun-plugin-tailwind": "^0.1.2",
+    "tailwindcss": "^4.3.3"
   }
 }
